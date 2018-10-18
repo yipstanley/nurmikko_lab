@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: usual, Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif', 'Helvetica' ,sans-serif;
+	background-color: white;
+}
+
+#selected {
+	color: black;
+}
+
+header {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'
+}
+
+div.scrCont {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#navBarCont {
+	display: flex;
+	justify-content: flex-start;
+	padding: 1em 3em;
+	align-items: center;
+}
+
+#navBarLinks {
+	display: flex;
+	padding-left: 4em;
+	width: 100%;
+	justify-content: space-between
+}
+
+#logo {
+	width: 20%;
+	border-right: 1px solid grey;
+	padding-right: 2em;
+}
+
+.navBarLink {
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #9C9C9C;
+	transition: all .25s;
+}
+
+.navBarLink:hover {
+	color: black;
+}
+
+#headerCont1 {
+	background-color: black;
+	font-size: 2.5em;
+	color: white;
+	padding: 0px 10px;
+	width: 25%;
+}

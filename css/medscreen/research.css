@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#areasCont {
+	display: flex;
+	width: 90%;
+	margin: 1em auto 0;
+}
+
+#scr1Cont {
+	height: auto;
+}
+
+.areaItem {
+	width: 33%;
+	height: 500px;
+	opacity: 50%;
+	overflow: hidden;
+	border: white thin solid
+}
+
+#neuroengineering {
+	background: url("../../images/neuroengineering_placeholder.png") no-repeat left;
+	height: 100%;
+	width: 100%;
+	transform: scale(1.4);
+}
+
+#cover1 {
+	background: #3DAC5E;
+	height: 500px;
+	opacity: 0.7;
+}
+
+#photonics {
+	background: url("../../images/photonics_placeholder.jpg") no-repeat center;
+	height: 100%;
+	width: 100%;
+}
+
+#cover2 {
+	background: #3AAAF5;
+	height: 500px;
+	opacity: 0.7;
+}
+
+#ultrafast {
+	background: url("../../images/ultrafast_placeholder.jpg") no-repeat left;
+	height: 100%;
+	width: 100%;
+}
+
+#cover3 {
+	background: #B40003;
+	height: 500px;
+	opacity: 0.7;
+}
